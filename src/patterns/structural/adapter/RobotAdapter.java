@@ -1,9 +1,9 @@
 package patterns.structural.adapter;
 
 public class RobotAdapter implements EnemyAttacker {
-	private NewEnemyRobot robot;
+	private EnemyRobot robot;
 
-	public RobotAdapter(NewEnemyRobot robot) {
+	public RobotAdapter(EnemyRobot robot) {
 		this.robot = robot;
 	}
 

@@ -6,13 +6,15 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import patterns.structural.decorator.FileWriteLowerCaseStrategy;
-import patterns.structural.decorator.FileWriteUpperCaseStrategy;
 
-public class TestDecorator {
+import patterns.structural.decorator.example1.FileWriteLowerCaseStrategy;
+import patterns.structural.decorator.example1.FileWriteUpperCaseStrategy;
+
+public class TestDecoratorExample1 {
 	private static final String FILE_NAME = "test.txt";
 	private static FileWriteUpperCaseStrategy upperCaseStrategy; 
 	private static FileWriteLowerCaseStrategy lowerCaseStrategy;

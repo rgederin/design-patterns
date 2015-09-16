@@ -1,4 +1,4 @@
-package patterns.structural.decorator;
+package patterns.structural.decorator.example1;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;

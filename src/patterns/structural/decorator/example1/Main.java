@@ -1,4 +1,4 @@
-package patterns.structural.decorator;
+package patterns.structural.decorator.example1;
 
 public class Main {
 	public static void main(String[] args) {

@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		EnemyAttacker tank = new EnemyTank();
-		NewEnemyRobot robot = new NewEnemyRobot();
+		EnemyRobot robot = new EnemyRobot();
 		EnemyAttacker robotAdapter = new RobotAdapter(robot);
 
 		System.out.println("\t\nTank in Action\n");

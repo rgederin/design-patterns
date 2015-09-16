@@ -2,7 +2,7 @@ package patterns.structural.adapter;
 
 import java.util.Random;
 
-public class NewEnemyRobot {
+public class EnemyRobot {
 	private Random random = new Random();
 
 	public void smashWithHands() {
